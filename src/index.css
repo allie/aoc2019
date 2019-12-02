@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Mountains+of+Christmas:700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Arvo', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #d96459;
+  --red-light: #d9645910;
+  --green: #588c73;
+  --yellow: #f2e394;
+  --orange: #f2ae72;
+  --black: #1b1b1e;
+  --light-grey: #c7c7e2;
+  --dark-grey: #4e4e56;
+  --github: #959da5;
 }
